@@ -1,4 +1,4 @@
-a=[-1,4,5,-4,-7,8,9,3]
-positive_list=[x for x in a if x>0 ]
-print("positive number:",positive_list)
-
+numbers=input("enter integers separated by space:")
+numbers=[int(x) for x in numbers.split()]
+result=["over" if n>100 else n for n in numbers]
+print ("processed list:",result)
